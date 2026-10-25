@@ -26,7 +26,7 @@ Armed with sever-side generative intelligence and a hardened Zero-Trust database
 * **Interactive Advisory Terminal**: Allows analysts to query current event alerts, state forecasting models, and receive immediate strategic assessments.
 
 ### 4. Resilient Offline-First Architecture
-* **Tab-Synchronized Persistent Cache**: Utilizing Firestore's multiple-tab cache manager to store localized caches in IndexedDB.
+* **Tab-Synchronized Persistent Cache**: Utilizes Firestore's multiple-tab cache manager to store localized caches in IndexedDB.
 * **Uninterrupted Operations**: Field analysts can read dashboards, view threat levels, and query pre-cached responses offline. When connection is restored, background events reconcile automatically.
 * **Public Readiness**: Threat signals default to a public-read state for emergency stakeholder sharing.
 
@@ -113,7 +113,7 @@ Starts the custom Express server inside an active TypeScript execution context (
 ```bash
 npm run dev
 ```
-Open **[http://localhost:3000](http://localhost:3000)** in your browser to view the application.
+Open **[https://neims-3123.ai.studio/](https://neims-3123.ai.studio/)** in your browser to view the application.
 
 ### Production Build
 Pipes the frontend React application through Vite's code-splitter, and compiles `server.ts` into a fast, bundled CommonJS script (`dist/server.cjs`) using `esbuild`:
